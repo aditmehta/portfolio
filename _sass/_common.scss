@@ -1,0 +1,24 @@
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+  }
+}
+
+body{
+  font-family: $normal-font;
+  font-weight: 300;
+}
+.raw{
+  font-family: $default-font;
+}
+nav.navbar{
+  font-family: $heading-font;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+
+footer{
+  margin: 2em 0 1em;
+  text-align: center;
+}

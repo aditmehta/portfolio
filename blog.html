@@ -1,0 +1,35 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+position: 2
+---
+
+<div id="blog">
+
+  <h1>Chill Blog</h1>
+
+  <section id="posts">
+    {% for post in site.posts %}
+    <article class="post">
+      <div class="col-sm-2 hidden-xs"> 
+        <div class="date-box">
+          <div class="date">{{ post.date | date: "%-d" }}</div>
+          <div class="month">{{ post.date | date: "%b, %Y" }}</div>
+        </div>
+      </div>
+      <div class="col-sm-10">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p>{{post.excerpt}}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="pull-right">Read More...</a>
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+
+  <div class="subscribe">
+    subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+  </div>
+</div>
