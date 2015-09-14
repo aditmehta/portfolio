@@ -1,7 +1,3 @@
-h1 {
-  font-family: 'Arvo', serif;
-  font-weight: 400; }
-
 h2 {
   font-family: 'Arvo', serif;
   font-weight: 400; }
@@ -39,7 +35,7 @@ footer {
   text-align: center; }
 
 #land {
-  background-image: url("../images/landing.jpg");
+  background-image: url("../images/home.jpg");
   width: 100%;
   height: 100vh;
   background-size: 100% auto;
@@ -51,21 +47,25 @@ footer {
   #land header {
     border: 1px solid transparent; }
     #land header h1 {
-      text-align: center;
+      padding-top: 2.5em;
+      padding-left: 3em;
       font-size: 4vw;
-      color: white; }
+      color: #542D2D;
+      padding-top: 3.5em;
+      font-family: 'Arvo', serif;
+      font-weight: 400; }
   #land nav {
+    width: 100%;
     position: absolute;
-    bottom: 5vmin;
-    right: 5vmin; }
+    top: 1em; }
   #land a, #land a:hover, #land a:visited, #land a:active {
-    color: black;
+    color: #542D2D;
     text-decoration: none;
     text-transform: lowercase;
     font-size: 2vw;
     margin-left: 2em;
     display: inline-block;
-    transition: transform 0.3s ease-in; }
+    transition: transform 0.4s ease-in; }
     #land a:hover, #land a:hover:hover, #land a:visited:hover, #land a:active:hover {
       transform: scale(1.4); }
 
