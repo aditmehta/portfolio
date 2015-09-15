@@ -19,14 +19,14 @@ h6 {
   font-weight: 400; }
 
 body {
-  font-family: "Arvo", serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300; }
 
 .raw {
   font-family: arial; }
 
 nav.navbar {
-  font-family: "Arvo", serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
@@ -43,17 +43,22 @@ footer {
   background-position: center;
   background-color: #e2d4ed;
   position: relative;
-  font-family: "Arvo", serif; }
+  font-family: "Ubuntu", sans-serif; }
   #land header {
     border: 1px solid transparent; }
     #land header h1 {
-      padding-top: 2.5em;
-      padding-left: 3em;
+      text-align: right;
+      padding-right: 3em;
       font-size: 4vw;
       color: #542D2D;
-      padding-top: 3.5em;
+      padding-top: 1.5em;
       font-family: 'Arvo', serif;
       font-weight: 400; }
+    #land header p {
+      text-align: right;
+      padding-right: 6em;
+      color: #542D2D;
+      padding-top: 1.5em; }
   #land nav {
     width: 100%;
     position: absolute;
@@ -82,15 +87,8 @@ footer {
     margin-top: 0; }
   #blog #posts .post .date-box {
     text-align: center;
-    background-color: #E7CA36;
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    color: #FFF; }
+    color: black; }
   #blog #posts .post .date {
     font-size: 3em; }
   #blog #posts .post .month {
     font-size: 1.2em; }
-#blog .subscribe {
-  text-align: center;
-  margin: 1em 0; }

@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Projects
+permalink: /projects/
 position: 2
 ---
-
 <div id="blog">
 
-  <h1>Chill Blog</h1>
+  <h1>Projects</h1>
 
   <section id="posts">
     {% for post in site.posts %}
@@ -19,17 +18,19 @@ position: 2
         </div>
       </div>
       <div class="col-sm-10">
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <p>{{post.excerpt}}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="pull-right">Read More...</a>
+        <h1>Projects</h1>
+        <div class="media">
+          <div class="media-left media-top">
+            <a href="#">
+              <img class="media-object" src="..." alt="...">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Middle aligned media</h4>
+            ...
+          </div>
+        </div>
       </div>
     </article>
     {% endfor %}
   </section>
-
-  <div class="subscribe">
-    subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-  </div>
-</div>
