@@ -1,34 +1,71 @@
 ---
 layout: page
-title: Projects
+title: projects
 permalink: /projects/
 position: 2
 ---
-<div id="blog">
 
-  <h1>Projects</h1>
+<h1>Projects</h1>
 
-  <section id="projects">
-    {% for project in site.data.projects %}
-    <article class="projects">
-      <div class="col-sm-2 hidden-xs"> 
-        {{project.end_date}}
-        -
-        {{project.start_date}}
-      </div>
-      <div class="col-sm-10">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="../images/" alt="...">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">{{project.title}}</h4>
-            <p>{{project.description}}</p>
-          </div>
-        </div>
-      </div>
-    </article>
-    {% endfor %}
-  </section>
+<div id="projects">
+
+  <h2>My Creations</h2>
+
+  <div class="product_box margin_r_10">
+    <a href="../html_links/project1.html"><img src="../images/project.jpg" alt="image" /></a>
+        <h3>Online Roulette</h3>
+        <p>We were given a task to create an online game <a href="../html_links/project1.html">More...</a></p>
+    </div>
+    
+    <div class="product_box margin_r_10">
+    <a href="../html_links/project2.html"><img src="../images/project1.jpg" alt="image" /></a>
+        <h3>Demo Funding Webpage Creation</h3>
+      <p>Making a static website teaser that will accommodate <a href="../html_links/project2.html">More...</a></p>
+    </div>
+    
+    <div class="product_box margin_r_10">
+
+        <a href="../html_links/project3.html"><img src="../images/project1_5.jpg" alt="image" /></a>
+        <h3>Online JavaScript Calculator</h3>
+        <p>Created an online calculator using JavaScript, <a href="../html_links/project3.html">More...</a></p>
+    </div>
+    
+  <div class="product_box">
+
+        <a href="../html_links/project4.html"><img src="../images/project2.jpg" alt="image" /></a>
+        <h3>Website Creation & Design</h3>
+        <p>After watching several tutorial videos, I was instructed to <a href="../html_links/project4.html">More...</a></p>
+    </div>
+    
+    <div class="product_box margin_r_10">
+
+      <a href="../html_links/project5.html">
+          <img src="../images/project3.jpg" alt="image" />
+        </a>
+        <h3>Pex - PSD2HTML Project</h3>
+        <p>Building a static website like this one: http://blazrobar. <a href="../html_links/project5.html">More...</a> </p>
+    </div>
+    
+    <div class="product_box margin_r_10">
+        <a href="../html_links/project6.html">
+          <img src="../images/project4.jpg" alt="image" />
+    </a>
+        <h3>Euler Problems</h3>
+        <p>Solved Euler Problems using technical logic and then using that <a href="../html_links/project6.html">More...</a></p>
+    </div>
+    
+    <div class="product_box margin_r_10">
+
+        <a href="../html_links/project7.html"><img src="../images/project5.jpg" alt="image" /></a>
+        <h3>Modified 2048</h3>
+        <p>Forked the 2048 online game code from a GitHub user and <a href="../html_links/project7.html">More...</a></p>
+
+    </div>
+
+    <div class="product_box margin_r_10">
+
+        <a href="../html_links/project8.html"><img src="../images/project6.jpg" alt="image" /></a>
+        <h3>Personal Portfolio</h3>
+        <p>Well this project is what you're currently looking <a href="../html_links/project8.html">More...</a></p>
+    </div>
+</div>

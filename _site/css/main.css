@@ -81,17 +81,24 @@ footer {
   #about img.pull-right {
     margin-left: 20px; }
 
-#blog #projects {
+#blog #posts {
   margin-top: 2em; }
-  #blog #projects .post h2 {
+  #blog #posts .post h2 {
     margin-top: 0; }
-  #blog #projects .post .date-box {
+  #blog #posts .post .date-box {
     text-align: center;
-    color: black; }
-  #blog #projects .post .date {
+    background-color: #E7CA36;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    color: #FFF; }
+  #blog #posts .post .date {
     font-size: 3em; }
-  #blog #projects .post .month {
+  #blog #posts .post .month {
     font-size: 1.2em; }
+#blog .subscribe {
+  text-align: center;
+  margin: 1em 0; }
 
 #projects {
   width: 950px;
