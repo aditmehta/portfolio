@@ -1,0 +1,51 @@
+[
+  {
+    title: "Online roulette",
+    description: "We were given a task to create an online game, using JavaScript, jQuery, HTML5 and CSS3 code, my cousin Shenil and I created an online roulette game within a span of a day.",
+    thumbnail: "../images/project.jpg",
+    start_date: "September 2nd, 2015",
+    end_date: "September 3rd, 2015"
+  },{
+    title: "Demo Funding Webpage Creation",
+    description: "Making a static website teaser that will accommodate a sort of funding page or a portal.
+    Created using skills such as:
+    GitHub, Sublime Text, HTML5, CSS3, Grunt, JavaScript, Bootstrap",
+    thumbnail: "../images/project1.jpg",
+    start_date: "August 26th, 2015",
+    end_date: "August 29th, 2015"
+  },{
+    title: "Online JavaScript Calculator",
+    description: "Created an online calculator using JavaScript, HTML5, CSS3 and other basic coding functions along with GitHub for hosting and publishing the work.",
+    thumbnail: "project1_5.jpg",
+    start_date: "August 29th, 2015",
+    end_date: "September 1st, 2015"
+  },{
+    title: "Website Creation & Design",
+    description: "After watching several tutorial videos, I was instructed to create
+    a replica of a website, that would help me display the skills I had learnt. 
+    The skills I used to create this webpage were: GitHub, Sublime Text, HTML5, CSS3, Grunt, JavaScript, Bootstrap ",
+    thumbnail: "../images/project2.jpg",
+    start_date: "August 21st, 2015",
+    end_date: "August 27th, 2015"
+  },{
+    title: "Pex - PSD2HTML Project",
+    description: "Building a static website like this one: http://blazrobar.com/2015/free-psd-website-templates/pex-a-free-website-home-page-photoshop-psd/. 
+    Created using skills such as: GitHub, Sublime Text, HTML5, CSS3, Grunt, JavaScript, Bootstrap",
+    thumbnail: "project3.jpg",
+    start_date: "August 10th, 2015",
+    end_date: "August 20th, 2015"
+  },{
+    title: "Euler Problems",
+    description: "Solved Euler Problems using technical logic and then using that logic, coded the solution to the problems in Ruby.
+    Created using skills such as: GitHub, Sublime Text, Ruby",
+    thumbnail: "project4.jpg",
+    start_date: "August 7th, 2015",
+    end_date: "August 8th, 2015"
+  },{
+    title: "Modified 2048",
+    description: "Forked the 2048 online game code from a GitHub user and converted that into my own version of the game.",
+    thumbnail: "project5.jpg",
+    start_date: "August 9th, 2015",
+    end_date: "August 10th, 2015"
+  }
+]

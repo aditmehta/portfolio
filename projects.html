@@ -8,26 +8,24 @@ position: 2
 
   <h1>Projects</h1>
 
-  <section id="posts">
-    {% for post in site.posts %}
-    <article class="post">
+  <section id="projects">
+    {% for project in site.data.projects %}
+    <article class="projects">
       <div class="col-sm-2 hidden-xs"> 
-        <div class="date-box">
-          <div class="date">{{ post.date | date: "%-d" }}</div>
-          <div class="month">{{ post.date | date: "%b, %Y" }}</div>
-        </div>
+        {{project.end_date}}
+        -
+        {{project.start_date}}
       </div>
       <div class="col-sm-10">
-        <h1>Projects</h1>
         <div class="media">
-          <div class="media-left media-top">
+          <div class="media-left">
             <a href="#">
-              <img class="media-object" src="..." alt="...">
+              <img class="media-object" src="../images/" alt="...">
             </a>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Middle aligned media</h4>
-            ...
+            <h4 class="media-heading">{{project.title}}</h4>
+            <p>{{project.description}}</p>
           </div>
         </div>
       </div>
