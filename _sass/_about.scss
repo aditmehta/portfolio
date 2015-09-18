@@ -1,13 +1,48 @@
-#about{
-  img{
-    border: 3px solid #B0B0B0;
+#services {
+  width: 100%;
+  background-image: url("../images/about2.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e2d4ed;
+  position: relative;
+  color: #9AD5AB;
 
-    &.pull-left{
-      margin-right: 20px;
-    }
+  .title {
+    text-align: center;
+    color: #bd9438; 
+    margin: 0;
+  }
 
-    &.pull-right{
-      margin-left: 20px;
-    }
+  h2,h3{
+    color: #bd9438
+  }
+  
+  .first{
+    padding-right: 4em;
+  }
+
+  .fa-heart{
+    padding-left: 28em;
+    padding-top: 1.9em; 
+    color: #bd9438;
+  }
+}
+nav{
+  width: 100%;
+  position: absolute;
+  top: 1em;
+
+}
+
+a{
+  &, &:hover, &:visited, &:active{
+    color: #bd9438;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 2vw;
+    margin-left: 2em;
+    display: inline-block;
+    transition: transform 0.4s ease-in;
   }
 }

@@ -74,31 +74,58 @@ footer {
     #land a:hover, #land a:hover:hover, #land a:visited:hover, #land a:active:hover {
       transform: scale(1.4); }
 
-#about img {
-  border: 3px solid #B0B0B0; }
-  #about img.pull-left {
-    margin-right: 20px; }
-  #about img.pull-right {
-    margin-left: 20px; }
-
-#blog #posts {
-  margin-top: 2em; }
-  #blog #posts .post h2 {
-    margin-top: 0; }
-  #blog #posts .post .date-box {
+#services {
+  width: 100%;
+  background-image: url("../images/about2.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e2d4ed;
+  position: relative;
+  color: #9AD5AB; }
+  #services .title {
     text-align: center;
-    background-color: #E7CA36;
-    width: 7em;
-    height: 7em;
-    border-radius: 50%;
-    color: #FFF; }
-  #blog #posts .post .date {
-    font-size: 3em; }
-  #blog #posts .post .month {
-    font-size: 1.2em; }
-#blog .subscribe {
-  text-align: center;
-  margin: 1em 0; }
+    color: #bd9438;
+    margin: 0; }
+  #services h2, #services h3 {
+    color: #bd9438; }
+  #services .first {
+    padding-right: 4em; }
+  #services .fa-heart {
+    padding-left: 28em;
+    padding-top: 1.9em;
+    color: #bd9438; }
+
+nav {
+  width: 100%;
+  position: absolute;
+  top: 1em; }
+
+a, a:hover, a:visited, a:active {
+  color: #bd9438;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 2vw;
+  margin-left: 2em;
+  display: inline-block;
+  transition: transform 0.4s ease-in; }
+
+#services {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF; }
+  #services .title {
+    text-align: center;
+    margin-top: 3em;
+    color: #bd9438; }
+  #services .first {
+    padding-right: 4em; }
+  #services .fa-heart {
+    padding-left: 27em;
+    padding-top: 1.7em;
+    color: #bd9438; }
+  #services .last {
+    padding-bottom: 2.5em; }
 
 #projects {
   width: 950px;
