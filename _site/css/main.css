@@ -74,7 +74,7 @@ footer {
     #land a:hover, #land a:hover:hover, #land a:visited:hover, #land a:active:hover {
       transform: scale(1.4); }
 
-#services {
+#about {
   width: 100%;
   background-image: url("../images/about2.jpg");
   background-size: 100% auto;
@@ -82,50 +82,46 @@ footer {
   background-repeat: no-repeat;
   background-color: #e2d4ed;
   position: relative;
-  color: #9AD5AB; }
-  #services .title {
+  min-height: 100vh;
+  color: #9AD5AB;
+  padding-top: 3.5em;
+  font-size: 16px; }
+  #about .title {
     text-align: center;
-    color: #bd9438;
     margin: 0; }
-  #services h2, #services h3 {
+  #about h2, #about h3 {
     color: #bd9438; }
-  #services .first {
+  #about .first {
     padding-right: 4em; }
-  #services .fa-heart {
-    padding-left: 28em;
-    padding-top: 1.9em;
+  #about .fa-heart {
+    padding-left: 24em;
+    padding-top: 1.5em;
     color: #bd9438; }
-
-nav {
-  width: 100%;
-  position: absolute;
-  top: 1em; }
-
-a, a:hover, a:visited, a:active {
-  color: #bd9438;
-  text-decoration: none;
-  text-transform: lowercase;
-  font-size: 2vw;
-  margin-left: 2em;
-  display: inline-block;
-  transition: transform 0.4s ease-in; }
-
-#services {
-  width: 100%;
-  height: auto;
-  background-color: #FFFFFF; }
-  #services .title {
-    text-align: center;
-    margin-top: 3em;
+  #about nav {
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 1em; }
+    #about nav #about-link {
+      display: none; }
+  #about a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 2vw;
+    margin-left: 2em;
+    display: inline-block;
+    transition: transform 0.4s ease-in;
     color: #bd9438; }
-  #services .first {
-    padding-right: 4em; }
-  #services .fa-heart {
-    padding-left: 27em;
-    padding-top: 1.7em;
+    #about a:hover {
+      color: #bd9438;
+      text-decoration: none; }
+  #about .navbar-brand {
+    margin: 0;
+    font-size: 2vw;
+    padding: 0;
+    margin-top: 0.4em;
+    padding-left: 2em;
     color: #bd9438; }
-  #services .last {
-    padding-bottom: 2.5em; }
 
 #projects {
   width: 950px;
