@@ -1,0 +1,36 @@
+#projects {
+  width: 970px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  background-image: url("../images/yellow.jpg");
+  background-repeat: no-repeat;
+
+  .product_box {
+    float: left;
+    width: 230px;
+    background: #f1f1f1;
+    border: 1px solid #e0e0e0;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+
+  .product_box:hover {
+    background: #e7ebce;
+  }
+
+  .product_box a {
+    text-decoration: none;
+  }
+
+  .product_box a:hover {
+    text-decoration: none; 
+  }
+
+  .product_box a img {
+    border: 1px solid #ffffff;
+  }
+
+  .product_box:hover h3 {
+    color: #006695;
+  }
+}
