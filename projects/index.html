@@ -1,0 +1,25 @@
+---
+layout: page
+title: projects
+permalink: /projects/
+position: 2
+page_id: projects_page
+---
+
+
+<div id="projects">
+
+  <h2>My Creations</h2>
+
+  <div class="container-fluid">
+    <div class="row">
+      {% for project in site.data.projects %}
+        <div class="product_box col-md-3 col-sm-4 col-xs-6">
+          <a href="{{ project.link | prepend: '/projects/' | prepend: site.baseurl }}"><img src="{{ project.thumbnail | prepend: '/images/projects/' | prepend: site.baseurl }}" alt="{{project.title}}" /></a>
+          <h3>{{project.title}}</h3>
+          <p>{{project.description}}<br> <a href="{{ project.link | prepend: '/projects/' | prepend: site.baseurl }}">More...</a></p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

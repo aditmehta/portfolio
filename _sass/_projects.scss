@@ -1,35 +1,37 @@
-#projects {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 15px;
+#projects_page {
   background-repeat: no-repeat;
   background-image: url("../images/yellow.jpg");
+  background-size: cover;
 
-  .product_box {
-    background: transparent;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    height: 250px;
-    text-align: center;
-  }
+  #projects {
+    padding: 30px 15px;
 
-  .product_box:hover {
-    background: #e7ebce;
-  }
+    .product_box {
+      background: transparent;
+      padding: 10px 10px;
+      margin-bottom: 10px;
+      height: 250px;
+      text-align: center;
+    }
 
-  .product_box a {
-    text-decoration: none;
-  }
+    .product_box:hover {
+      background: #e7ebce;
+    }
 
-  .product_box a:hover {
-    text-decoration: none; 
-  }
+    .product_box a {
+      text-decoration: none;
+    }
 
-  .product_box a img {
-    border: 1px solid #ffffff;
-  }
+    .product_box a:hover {
+      text-decoration: none; 
+    }
 
-  .product_box:hover h3 {
-    color: #006695;
+    .product_box a img {
+      border: 1px solid #ffffff;
+    }
+
+    .product_box:hover h3 {
+      color: #006695;
+    }
   }
 }

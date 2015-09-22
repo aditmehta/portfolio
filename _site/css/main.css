@@ -125,25 +125,25 @@ footer {
     padding-left: 2em;
     color: #bd9438; }
 
-#projects {
-  width: 100%;
-  margin: 0 auto;
-  padding: 30px 15px;
+#projects_page {
   background-repeat: no-repeat;
-  background-image: url("../images/yellow.jpg"); }
-  #projects .product_box {
-    background: transparent;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-    height: 250px;
-    text-align: center; }
-  #projects .product_box:hover {
-    background: #e7ebce; }
-  #projects .product_box a {
-    text-decoration: none; }
-  #projects .product_box a:hover {
-    text-decoration: none; }
-  #projects .product_box a img {
-    border: 1px solid #ffffff; }
-  #projects .product_box:hover h3 {
-    color: #006695; }
+  background-image: url("../images/yellow.jpg");
+  background-size: cover; }
+  #projects_page #projects {
+    padding: 30px 15px; }
+    #projects_page #projects .product_box {
+      background: transparent;
+      padding: 10px 10px;
+      margin-bottom: 10px;
+      height: 250px;
+      text-align: center; }
+    #projects_page #projects .product_box:hover {
+      background: #e7ebce; }
+    #projects_page #projects .product_box a {
+      text-decoration: none; }
+    #projects_page #projects .product_box a:hover {
+      text-decoration: none; }
+    #projects_page #projects .product_box a img {
+      border: 1px solid #ffffff; }
+    #projects_page #projects .product_box:hover h3 {
+      color: #006695; }

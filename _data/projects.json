@@ -1,0 +1,51 @@
+[
+ {
+  link: "online-roulette",
+  thumbnail: "online-roulette.jpg",
+  title: "Online Roulette",
+  description: "We were given a task to create an online game"
+
+ },
+ {
+  link: "demo-funding",
+  thumbnail: "demo-funding.jpg",
+  title: "Demo Funding Webpage Creation",
+  description: "Making a static website teaser that will accommodate"
+ },
+ {
+  link: "js-calci",
+  thumbnail: "js-calci.jpg",
+  title: "Online JavaScript Calculator",
+  description: "Created an online calculator using JavaScript"
+ },
+ {
+  link: "website-creation",
+  thumbnail: "website-creation.jpg",
+  title: "Website Creation &amp; Design",
+  description: "After watching several tutorial videos, I was"
+ },
+ {
+  link: "pex-psd2html",
+  thumbnail: "pex-psd2html.jpg",
+  title: "Pex - PSD2HTML Project",
+  description: "Building a static website like this one: http://blazrobar."
+ },
+ {
+  link: "euler-problems",
+  thumbnail: "euler-problems.jpg",
+  title: "Euler Problems",
+  description: "Solved Euler Problems using technical logic and"
+ },
+ {
+  link: "2048",
+  thumbnail: "2048.jpg",
+  title: "Modified 2048",
+  description: "Forked the 2048 online game code from a GitHub"
+ },
+ {
+  link: "personal-portfolio",
+  thumbnail: "personal-portfolio.jpg",
+  title: "Personal Portfolio",
+  description: "Well this project is what you're currently looking"
+ }
+]
