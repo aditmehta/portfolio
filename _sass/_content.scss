@@ -118,9 +118,28 @@
 }
 #mod_page{
   background-repeat: no-repeat;
-  background-image: url("../images/statue.jpg");
+  background-image: url("../images/rainbow.jpg");
   background-size: cover;
   color: #3D392A;
+  
+  .button_01{
+    a, a:hover {
+      background-color: #BA0508;
+      color: #FFF;
+      text-decoration: none;
+      padding: 1em 1em;
+      border-radius: 0.5em;
+      font-weight: 700;
+      display: inline-block;
+      margin: 2em 0;
+    }
+  }
+}
+#personal_page{
+  background-repeat: no-repeat;
+  background-image: url("../images/japan.jpg");
+  background-size: cover;
+  color: #034F18;
   
   .button_01{
     a, a:hover {
