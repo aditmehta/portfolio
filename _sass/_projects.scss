@@ -1,6 +1,6 @@
 #projects_page {
   background-repeat: no-repeat;
-  background-image: url("../images/yellow.jpg");
+  background-image: url("../images/brown.jpg");
   background-size: cover;
 
   #projects {
@@ -10,8 +10,9 @@
       background: transparent;
       padding: 10px 10px;
       margin-bottom: 10px;
-      height: 250px;
+      height: 260px;
       text-align: center;
+      color: #3F0303;
     }
 
     .product_box:hover {
