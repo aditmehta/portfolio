@@ -260,7 +260,7 @@ footer {
   background-repeat: no-repeat;
   background-image: url("../images/japan.jpg");
   background-size: cover;
-  color: #034F18; }
+  color: #000; }
   #personal_page .button_01 a, #personal_page .button_01 a:hover {
     background-color: #BA0508;
     color: #FFF;
